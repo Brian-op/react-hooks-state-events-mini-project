@@ -17,6 +17,7 @@ function App() {
 
   const handleSelectCategory = (category) => {
     setSelectedCategory(category); 
+  };
 
   const handleDeleteTask = (taskToDelete) => {
     setTasks(tasks.filter(task => task !== taskToDelete)); 
@@ -45,5 +46,5 @@ function App() {
     </div>
   );
 }
-}
+
 export default App;
